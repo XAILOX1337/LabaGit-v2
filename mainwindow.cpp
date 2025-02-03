@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 }
-
+//chipi chapa
 QVector<int> Stations;
 void MainWindow::mouseReleaseEvent(QMouseEvent *event)
 {
