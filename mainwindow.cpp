@@ -40,10 +40,10 @@ void MainWindow::paintEvent(QPaintEvent *)
             if (i >= 2) {
                 painter.setPen(
                     QPen(QColor(0, 100, 100), 5, Qt::SolidLine, Qt::FlatCap, Qt::MiterJoin));
-                painter.drawLine(Stations[i - 2] + 10,  //x 1-первой точки
-                                 Stations[i - 1] + 10,  //y 1-ой точки
-                                 Stations[i] + 10,      //x 2-ой точки
-                                 Stations[i + 1] + 10); //y 2-ой точки
+                painter.drawLine(Stations[i - 2] + 10,  
+                                 Stations[i - 1] + 10,  
+                                 Stations[i] + 10,     
+                                 Stations[i + 1] + 10); 
             }
         }
     }
