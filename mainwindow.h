@@ -13,18 +13,15 @@ QT_END_NAMESPACE
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
-
+//i don't know what add or delete :-(
 public:
-    MainWindow(QWidget *parent = nullptr);
+    MainWindow(QWidget *parent  =  nullptr);
     ~MainWindow();
-
 private:
     Ui::MainWindow *ui;
-
 private:
     QPoint ellipse_;
     QVector<int> Stations;
-
 protected:
     void paintEvent(QPaintEvent *) override;
     void mouseReleaseEvent(QMouseEvent *event) override;
@@ -32,7 +29,6 @@ protected:
     int getY(int y);
     void Click(int x, int y);
 };
-
 /* На всякий случай
 class Click
 {
